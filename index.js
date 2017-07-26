@@ -26,7 +26,7 @@ while (!number3) {
   }
  }
 function solveDiscr(a, b, c) {
-    return b*b - 4*a*c;
+    return (b*b) - (4*a*c);
 }
 function solveQuest(a, b, c){
  var discr = solveDiscr(a, b, c);
@@ -39,8 +39,8 @@ function solveQuest(a, b, c){
  }
  if (discr > 0) {
     var d = Math.sqrt(solveDiscr(a, b, c));
-    var x2 = ((-b) + d)/2*a;
-    var x3 = ((-b) - d)/2*a;
+    var x2 = ((-b) + d)/(2*a);
+    var x3 = ((-b) - d)/(2*a);
     return 'The result is: x1 = ' + x2 + ', x2= ' + x3;
  }
 }
