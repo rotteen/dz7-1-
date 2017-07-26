@@ -34,7 +34,7 @@ function solveQuest(a, b, c){
     return 'No roots';
  }
  if (discr == 0) {
-    var x1 = (-b)/2*a;
+    var x1 = (-b)/(2*a);
     return 'The result is: x = ' + x1;
  }
  if (discr > 0) {
